@@ -1,0 +1,193 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+
+
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 2;
+
+}
+
+
+h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+p{
+  font-weight: 400;
+}
+
+
+#title{
+  background-color: #DA0037;
+  color: white;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+}
+
+.btn-temp{
+  margin: 5% 3% 5% 0;
+}
+
+.iphoneimg{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;       /* parent of this class col-lg-2 not body because it is setup by bootstrap */
+  right:30%;
+}
+
+
+/*  features setion */
+#features{
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
+
+
+.feature-row{
+  padding: 7% 15%;
+  margin-right: 0;
+  text-align: center;
+}
+
+
+.feature-box{
+  padding: 3%;
+}
+
+
+.icon{
+  color: #ff4c68;
+}
+
+
+.icon:hover{
+  color: #DA0037;
+}
+
+
+
+/* testimonial Section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+
+.testimonials-image{
+  width: 25%;
+  border-radius: 100%;
+}
+
+
+
+/* press section */
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+
+.press-image{
+  width: 15%;
+  margin: 0 15px 20px;;
+}
+
+/* pricing */
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+.column-pricing{
+  padding: 2%;
+}
+
+/* CTA SECTION */
+#cta{
+  text-align: center;
+  padding: 8% 15% 6%;
+  background-color:#DA0037;
+  color:white;
+}
+
+#cta h3{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.cta-btn{
+  margin: 1.5%;
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding: 5% 15% 3%;
+}
+
+
+.footer-icon{
+  margin: 1%;
+}
+
+
+@media (max-width:1024px) {
+  #title{
+    text-align: center;
+  }
+  .navbar{
+    padding: 0 0 5rem 0;
+  }
+  .iphoneimg{
+    transform:rotate(0);
+    position: static;
+  }
+}
